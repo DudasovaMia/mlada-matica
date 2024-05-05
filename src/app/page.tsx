@@ -54,7 +54,7 @@ const Home = () => {
             <div className={styles.mesto}>Bratislava - Staré mesto</div>
           </h1>
           <div className={styles.buttons}>
-            <button className={styles.button}>Staň sa členom</button>
+            <a className={styles.button} href="/stan-sa-clenom">Staň sa členom</a>
             <a href="#domov" className={styles.button}>
               Čítať viac ▼
             </a>

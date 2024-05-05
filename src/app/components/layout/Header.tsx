@@ -48,18 +48,8 @@ const Header = () => {
               </Link>
             </li>
             <li>
-              <Link href="/akcie" className={styles.navbarItem}>
-                Akcie
-              </Link>
-            </li>
-            <li>
-              <Link href="/fotogaleria" className={styles.navbarItem}>
-                Fotogaléria
-              </Link>
-            </li>
-            <li>
-              <Link href="/historia" className={styles.navbarItem}>
-                História
+              <Link href="/clanky" className={styles.navbarItem}>
+                Články
               </Link>
             </li>
             <li>

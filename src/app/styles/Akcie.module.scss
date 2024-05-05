@@ -67,10 +67,12 @@
       .imageWrapper {
         max-height: 100%;
         max-width: 30%;
+        display: flex;
+        justify-content: flex-end;
 
         img {
           max-height: 100%;
-          width: 100%;
+          width: auto;
           height: 100%;
           margin: auto 0;
         }
@@ -132,10 +134,12 @@
       .imageWrapper {
         max-height: 100%;
         max-width: 30%;
+        display: flex;
+        justify-content: flex-end;
 
         img {
           max-height: 100%;
-          width: 100%;
+          width: auto;
           height: 100%;
           margin: auto 0;
         }

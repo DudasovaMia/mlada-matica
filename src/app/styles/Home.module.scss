@@ -14,7 +14,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-image: url("../../../public/images/hory.webp");
+    background-image: url("../../../public/images/hory.png");
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -40,6 +40,7 @@
         color: white;
         font-weight: bold;
         text-align: center;
+        text-shadow: #ed1c24 2.5px 1px 6px;
 
         .mesto {
           font-size: 5vw;

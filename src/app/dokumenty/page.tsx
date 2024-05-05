@@ -22,7 +22,7 @@ const Dokumenty = () => {
           Mladej Matice a Matice slovenskej.
           <ul>
             <li>
-              <a href="/files/stanovy-OMM.pdf" target="_blank">
+              <a href="/files/Stanovy-OMM.pdf" target="_blank">
                 Stanovy OMM
               </a>
             </li>
@@ -32,7 +32,7 @@ const Dokumenty = () => {
               </a>
             </li>
             <li>
-              <a href="/files/stanovy-MS.pdf" target="_blank">
+              <a href="/files/Stanovy-Matice-slovenskej.pdf" target="_blank">
                 Stanovy MS
               </a>
             </li>
@@ -41,7 +41,10 @@ const Dokumenty = () => {
           svojou činnosťou plniť.
           <ul>
             <li>
-              <a href="/files/program-matice-slovenskej.pdf" target="_blank">
+              <a
+                href="/files/Program-Matice-slovenskej-na-roky-2023-až-2027-s-výhľadom-do-roku-2030.pdf"
+                target="_blank"
+              >
                 Program Matice slovenskej
               </a>
             </li>
@@ -51,26 +54,18 @@ const Dokumenty = () => {
           <ul>
             <li>
               <a
-                href="/files/zapisnica-a-uznesenia-valneho-zhromazdenia-2023.pdf"
-                target="_blank"
-              >
-                Zápisnica a uznesenia valného zhromaždenia 2022
-              </a>
-            </li>
-            <li>
-              <a
-                href="/files/zapisnica-valneho-zhromazdenia-2023.pdf"
-                target="_blank"
-              >
-                Zápisnica valného zhromaždenia 2023
-              </a>
-            </li>
-            <li>
-              <a
                 href="/files/uznesenia-valneho-zhromazdenia-2023.pdf"
                 target="_blank"
               >
                 Uznesenie valného zhromaždenia 2023
+              </a>
+            </li>
+            <li>
+              <a
+                href="/files/zapisnica-valneho-zhromazdenia-2024.pdf"
+                target="_blank"
+              >
+                Zápisnica valného zhromaždenia 2024
               </a>
             </li>
           </ul>

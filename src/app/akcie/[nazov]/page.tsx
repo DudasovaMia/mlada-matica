@@ -1,6 +1,7 @@
 import { useRouter } from "next/router";
 import styles from "../../styles/Akcia.module.scss";
 import { Prispevok, galeria } from "@/app/constants/data";
+import React from "react";
 
 const Akcie = ({ params }: { params: { nazov: string } }) => {
   const getURLFriendlyName = (name: string) => {

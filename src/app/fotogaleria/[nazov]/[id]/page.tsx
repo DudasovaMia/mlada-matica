@@ -4,6 +4,7 @@ import styles from "../../../styles/FotogaleriaGaleria.module.scss";
 import Link from "next/link";
 import { useEffect } from "react";
 import router, { useRouter } from "next/router";
+import React from "react"
 
 const Obrazok = ({ params }: { params: { nazov: string; id: string } }) => {
   const getURLFriendlyName = (name: string) => {
@@ -11,12 +12,12 @@ const Obrazok = ({ params }: { params: { nazov: string; id: string } }) => {
     return normalized.toLowerCase().replace(/\s+/g, "-");
   };
 
+  const idString = params.id != null ? params.id.toString() : "";
+
   const post: any = galeria.find(
     (post) =>
       getURLFriendlyName(post.nazov) === getURLFriendlyName(params.nazov)
   );
-
-  const idString = params.id != null ? params.id.toString() : "";
 
   useEffect(() => {
     const handleArrowKeyPress = (event: KeyboardEvent) => {
@@ -29,7 +30,7 @@ const Obrazok = ({ params }: { params: { nazov: string; id: string } }) => {
           window.location.href = `/fotogaleria/${params.nazov}/${prevId}`;
         }
       } else if (event.key === "ArrowRight") {
-        if (parseInt(params.id) < post.obrazky.length - 1) {
+        if (parseInt(params.id) < post?.obrazky?.length - 1) {
           const nextId = parseInt(params.id) + 1;
           window.location.href = `/fotogaleria/${params.nazov}/${nextId}`;
         }
@@ -46,6 +47,10 @@ const Obrazok = ({ params }: { params: { nazov: string; id: string } }) => {
       }
     };
   }, [params.nazov, params.id]);
+
+  if (!post) {
+    return <div>Post not found or loading...</div>; // Handle the case when post is not available
+  }
 
   return (
     <div className={styles.wrapper}>
@@ -73,12 +78,12 @@ const Obrazok = ({ params }: { params: { nazov: string; id: string } }) => {
           <img src={post.obrazky[idString]} alt="" className={styles.img} />
           <Link
             href={`/fotogaleria/${params.nazov}/${
-              parseInt(params.id) < post.obrazky.length - 1
+              parseInt(params.id) < post?.obrazky?.length - 1
                 ? parseInt(params.id) + 1
                 : params.id
             }`}
             className={`${styles.nav} ${
-              parseInt(params.id) === post.obrazky.length - 1
+              parseInt(params.id) === post?.obrazky?.length - 1
                 ? styles.notPrev
                 : styles.nav
             }`}

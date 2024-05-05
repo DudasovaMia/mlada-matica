@@ -21,24 +21,31 @@ const StanSaClenom = () => {
             35 rokov. Členovia OMM sú členmi Mladej Matice a Matice slovenskej.
             <br />
             <br />
-            Členský príspevok bol na tento rok stanovený na 5,-€.
+            Členský príspevok bol na tento rok stanovený na 10,-€.
           </div>
           <ol type="1">
-            <span style={{fontWeight: "bold"}}>Ako sa stať členom OMM:</span>
-            <li> &nbsp; &nbsp; Vypíš a pošli nám prihlášku za člena OMM.</li>
+            <span style={{ fontWeight: "bold" }}>Ako sa stať členom OMM:</span>
+            <li>
+              {" "}
+              &nbsp; &nbsp; Vypíš a pošli nám mailom alebo poštou prihlášku za
+              člena OMM.
+            </li>
+            <a href="mailto:ommbratislava@gmail.com">
+              &nbsp; &nbsp;
+              <img src="/icons/red-mail.svg" alt="mail" />
+              &nbsp; ommbratislava@gmail.com
+            </a>
             <a href="/files/prihlaska-za-clena-OMM.pdf" target="_blank">
               &nbsp; &nbsp;
               <img src="/icons/dokument.svg" alt="dokument" />
-              Prihláška za člena OMM
+              &nbsp; Prihláška za člena OMM
             </a>
-            <li>
-              {" "}
-              &nbsp; &nbsp; Výbor OMM na svojom zasadnutí schváli Tvoje
-              členstvo.
-            </li>
-            <li> &nbsp; &nbsp; Zašleme Ti rozhodnutie o prijatí.</li>
+            <li> &nbsp; &nbsp; Výbor OMM schváli Tvoje členstvo.</li>
             <li> &nbsp; &nbsp; Zaplatíš členský príspevok.</li>
             <li> &nbsp; &nbsp; Vystavíme Ti členský preukaz.</li>
+            <li>
+              &nbsp; &nbsp; Môžeš sa zúčastňovať našich akcií a podujatí.
+            </li>
           </ol>
         </div>
       </div>

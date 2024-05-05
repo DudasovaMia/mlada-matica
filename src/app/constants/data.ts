@@ -19,7 +19,7 @@ export const galeria: Prispevok[] = [
     datumKoniec: "13.9.2023 18:00",
     obrazky: [],
     obrazok:
-      "https://firebasestorage.googleapis.com/v0/b/mlada-matica.appspot.com/o/slovenske-hory-4.jpeg?alt=media&token=ea5803fd-94ab-42fd-bbda-cc473137d80d",
+      "https://firebasestorage.googleapis.com/v0/b/mlada-matica.appspot.com/o/slovenske-hory-3.png?alt=media&token=55e167d5-7ec3-4990-b090-096e53208bd2",
     datumVytvorenia: "22.7.2023 10:59:30",
   },
   {
@@ -58,8 +58,8 @@ export const galeria: Prispevok[] = [
     nazov: "Filatelistická olympiáda mládeže",
     popis:
       "Aenean sodales orci in lacus dapibus, malesuada ultrices lorem elementum. Pellentesque at elit sed orci commodo tincidunt ornare finibus ligula. Maecenas semper, metus vel sagittis tempor, leo orci vulputate mauris, vel bibendum est erat in nibh. In hendrerit lorem at ante ultricies aliquam. Phasellus vitae lorem massa. Sed quis quam eget massa ullamcorper egestas. Nulla et consequat nisl, ac interdum ligula.",
-    datumZaciatok: "20.7.2023",
-    datumKoniec: "20.7.2023",
+    datumZaciatok: "20.10.2023",
+    datumKoniec: "20.10.2023",
     obrazky: [
       "https://firebasestorage.googleapis.com/v0/b/mlada-matica.appspot.com/o/slovenske-hory-2.jpg?alt=media&token=86ddf0dd-2a65-4259-9098-4478dd1d8e47",
       "https://firebasestorage.googleapis.com/v0/b/mlada-matica.appspot.com/o/slovenske-hory-1.jpg?alt=media&token=90778e3e-1c19-46a2-961f-39e7e7440c53",
